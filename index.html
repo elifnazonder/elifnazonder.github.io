@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Logo"></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav pull-right mainNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown">
+            <a href="research.html" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="research.html">Overview</a></li>
+              <li><a href="nbn.html">NbN Single-Film Transmon</a></li>
+              <li><a href="hfreadout.html">High-Frequency Readout</a></li>
+              <li><a href="josephsonjunctions.html">Al/AlOx/Al Junctions</a></li>
+              <li><a href="gagefilms.html">Superconductivity in Ga:Ge Films</a></li>
+              <li><a href="wte2films.html">WTe₂ Films</a></li>
+            </ul>
+          </li>          
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Curiosities <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="curiosities.html">Overview</a></li>
+              <li><a href="curiosity-ballet.html">Ballet & Dance</a></li>
+              <li><a href="curiosity-experiments.html">Experiments</a></li>
+              <li><a href="curiosity-writing.html">Writings</a></li>
+              <li><a href="curiosity-films.html">Interesting Media</a></li>
+            </ul>
+          </li>          
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<!-- Carousel Section -->
+<div id="carouselHeader" class="carousel slide" data-ride="carousel" style="margin-bottom: 0;">
+
+<header id="head" class="secondary text-center" style="padding: 30px 0 10px;">
+    <div class="container">
+      <h1 style="margin-bottom: 0; font-size: 48px;">Hi! It's Naz, welcome to my website.</h1>
+    </div>
+  </header> 
+  <style>
+    .carousel-inner .item img {
+      width: 100%;
+      height: 400px;   /* change to whatever height you want */
+      object-fit: cover;
+      object-position: center;
+    }
+    </style>
+    
+    <div id="carouselHeader" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carouselHeader" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselHeader" data-slide-to="1"></li>
+        <li data-target="#carouselHeader" data-slide-to="2"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="assets/images/slide1.jpeg" alt="Slide 1">
+        </div>
+        <div class="item">
+          <img src="assets/images/slide2.jpeg" alt="Slide 2">
+        </div>
+        <div class="item">
+          <img src="assets/images/slide3.jpeg" alt="Slide 3">
+        </div>
+      </div>
+    </div>
+    
+  
+      <!-- Overlay Text -->
+      <div class="carousel-caption">
+        <p><a class="btn btn-default btn-lg" href="about.html">Learn more about me</a></p>
+      </div>
+    </div>
+  </header>
+  
+
+
+  <!-- Highlighted Projects -->
+
+  <div class="container text-center">
+    <h1 class="lead">Elifnaz Önder</h1>
+    <p class="tagline">Quantum Devices • Superconducting Circuits • Materials Research</p>
+    <p class="text-muted">I work on the intersection of condensed matter physics and quantum information, specifically superconducting qubits. Below are some highlights.</p>
+  </div>
+
+  <div class="jumbotron" style="margin-top: 0;">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+              <h3><a href="research.html#nbn">Single-Film Transmon Using NbN<br> (Yale; Michel Devoret Lab (QuLab))</a></h3>
+              <p>Single film transmon qubits utilizing the superconductor - insulator transition of NbN. </p>
+            </div>
+            <div class="col-md-6">
+              <h3><a href="research.html#readout">High-Frequency Readout of Superconducting Qubits<br> (Yale; Michel Devoret Lab (QuLab))</a></h3>
+              <p>Designed and measurement a 20 GHz readout cavity detuned from a 2 GHz transmon.</p>
+            </div>
+          </div>
+          
+          <div class="row top-margin">
+            <div class="col-md-6">
+              <h3><a href="research.html#junctions">Al/AlOx/Al Josephson Junctions<br> (MIT; William Oliver Lab (EQUS))</a></h3>
+              <p>Development of a novel fabrication method for Al:AlOx:Al Josephson junctions and characterized them. </p>
+            </div>
+            <div class="col-md-6">
+              <h3><a href="research.html#ge">Superconductivity in Ga:Ge Films for Vertical Josephson junctions<br> (NYU; Javad Shabani Lab)</a></h3>
+              <p>Exploration of superconductivity on gallium-doped germanium films.</p>
+            </div>
+          </div>
+          
+          <div class="row top-margin">
+            <div class="col-md-6">
+              <h3><a href="research.html#wte2">Monolayer WTe₂ Films<br> (Yale; Judy Cha Lab)</a></h3>
+              <p>Fabrication methods and transport properties of monolayer tungsten ditelluride.</p>
+            </div>
+          </div>          
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer id="footer">
+    <div class="container">
+      <div class="social text-center">
+        <!-- Google Scholar -->
+        <a href="https://scholar.google.com/citations?user=hKoemz0AAAAJ&hl=en" target="_blank" title="Google Scholar">
+          <i class="fa fa-book"></i>
+        </a>
+        <!-- GitHub -->
+        <a href="https://github.com/elifnazonder" target="_blank" title="GitHub">
+          <i class="fa fa-github"></i>
+        </a>
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/elifnaz-%C3%B6nder-b06511134/" target="_blank" title="LinkedIn">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  
+    <div class="footer2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 panel">
+            <p class="simplenav">
+              <a href="index.html">Home</a> |
+              <a href="about.html">About</a> |
+              <a href="research.html">Research</a> |
+              <a href="curiosities.html">Curiosities</a> |
+              <a href="contact.html">Contact</a>
+            </p>
+          </div>
+          <div class="col-md-6 panel">
+            <p class="text-right">© 2025 Elifnaz Önder. Template by WebThemez.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+  <!-- Scripts -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+</html>
